@@ -383,13 +383,13 @@ df_seeninfo$TreatmentFactor <- factor(df_seeninfo$Treatment)
 ggplot(df_seeninfo, aes(x=TreatmentFactor, y=deltaFriendly)) + geom_boxplot() + labs(y = "Changes in Climate Friendly Spending", x = "1: Control Group, 2: Injunctive Norm Group, 3: Prescriptive Norm Group")
 ```
 
-![](r_markdaown-1_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](assets/images/Rplot_friendly.jpeg)<!-- -->
 
 ``` r
 ggplot(df_seeninfo, aes(x=TreatmentFactor, y=deltaUnfriendly)) + geom_boxplot() + labs(y = "Changes in Climate Unriendly Spending", x = "1: Control Group, 2: Injunctive Norm Group, 3: Prescriptive Norm Group")
 ```
 
-![](r_markdaown-1_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
+![](assets/images/Rplot_unfriendly.jpeg)<!-- -->
 
 This switch of transport choice is visually depicted in the above
 boxplots.
