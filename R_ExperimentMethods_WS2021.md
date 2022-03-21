@@ -8,8 +8,7 @@ for the module ‘Experimental Methods’.
 
 Based on the experiment design, a mock data has been provided.
 
-In order to take a deeper look into the data, We import libraries and
-the data file.
+In order to take a deeper look, we import libraries and the data file.
 
 ``` r
 library(readxl)
